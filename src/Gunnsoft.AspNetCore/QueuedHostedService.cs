@@ -6,7 +6,6 @@ using Microsoft.Extensions.Logging;
 
 namespace Gunnsoft.AspNetCore
 {
-    // TODO Move to Gunnsoft.AspNetCore
     public class QueuedHostedService : BackgroundService
     {
         private readonly ILogger _logger;

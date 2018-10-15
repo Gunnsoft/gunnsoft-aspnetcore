@@ -4,7 +4,6 @@ using System.Threading.Tasks;
 
 namespace Gunnsoft.AspNetCore
 {
-    // TODO Move to Gunnsoft.AspNetCore
     public interface IBackgroundTaskQueue
     {
         void QueueBackgroundWorkItem
